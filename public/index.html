@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Socket.IO Chat Example</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="pages">
+  <section class="login page">
+    <div class="form" action="">
+      <h3 class="title">What's your nickname?</h3>
+      <input class="usernameInput" type="text" maxlength="14" />
+    </div>
+  </section>
+  <section>
+    <h1>德玛西亚万岁！</h1>
+    <p>房间列表</p>
+    <ul class="room_list">
+      <li><a href="/room.html?room=1">1号房间</a></li>
+      <li><a href="/room.html?room=2">2号房间</a></li>
+      <li><a href="/room.html?room=3">3号房间</a></li>
+    </ul>
+  </section>
+</div>
+
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="./main.js"></script>
+</body>
+</html>

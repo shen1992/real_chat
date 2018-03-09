@@ -1,0 +1,11 @@
+#msglog, #messageInput {
+  border: 1px solid #ccc;
+  width: 500px;
+  height: 350px;
+  overflow-y: auto;
+  font-size: 14px;
+}
+
+#messageInput {
+  height: 80px;
+}
